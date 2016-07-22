@@ -1,0 +1,15 @@
+<h1>Hello User</h1>
+
+<% @test.each do |t|%>
+  
+  <div style="text-align:center"><%= t %></div>
+
+<% end %>
+
+
+<div><%= saluda %></div>
+<div><%= controlador%></div>
+<div><%= metodo1 %></div>
+
+<div class="errores"><%= flash[:error] %></div>
+<div class="errores"><%= session[:nombre] %></div>
